@@ -1,0 +1,10 @@
+---
+ - name: debug module for case3
+   hosts: lab
+   tasks:
+     - name: Multiple Messages or Comments on Single Module
+       debug:
+        msg:
+         - "welcome to varains"
+         - "welcome to nareshins"
+         - "welcome to gruruins"
